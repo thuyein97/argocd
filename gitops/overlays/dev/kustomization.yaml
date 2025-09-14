@@ -1,0 +1,7 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+
+images:
+  - name: thuyein97/bankapp
+    newTag: v1.2.3   # <-- only change this when you want a new image
