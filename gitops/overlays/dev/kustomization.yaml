@@ -4,7 +4,7 @@ resources:
 images:
 - name: thuyein97/amazon-prime
   newName: thuyein97/amazon-prime
-  newTag: "3"
+  newTag: "4"
 - name: thuyein97/bankapp
   newName: thuyein97/bankapp
   newTag: "29"
