@@ -2,6 +2,9 @@ resources:
 - ../../base
 
 images:
+- name: thuyein97/amazon-prime
+  newName: thuyein97/amazon-prime
+  newTag: "4"
 - name: thuyein97/bankapp
   newName: thuyein97/bankapp
   newTag: "29"
