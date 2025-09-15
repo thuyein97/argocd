@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: amazon
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: amazon
   replicas: 2
   template:
     metadata:
       labels:
-        app: myapp
+        app: amazon
     spec:
       containers:
-      - name: myapp
-        image: thuyein97/bankapp:28
+      - name: amazon
+        image: thuyein97/amazon-prime:28
         ports:
-        - containerPort: 8080
+        - containerPort: 3000
